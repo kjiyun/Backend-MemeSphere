@@ -15,6 +15,6 @@ jobs:
     secrets:
       DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
       DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
-      HOST_ID: ${{ secrets.EC2_HOST }}
-      USERNAME: ${{ secrets.EC2_USERNAME }}
-      PRIVATE_KEY: ${{ secrets.EC2_SSH_KEY }}
+      HOST_ID: ${{ secrets.HOST_ID }}
+      USERNAME: ${{ secrets.USERNAME }}
+      PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
