@@ -10,8 +10,8 @@ public class CorsMvcConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry corsRegistry) {
         corsRegistry.addMapping("/**")
-                .allowedOrigins("http://localhost:3000", "http://3.36.128.243", "http://memesphere.site/",
-                        "https://memesphere.site/", "https://www.memesphere.site/",
+                .allowedOrigins("http://localhost:3000", "http://54.180.103.148", "http://frontend-memesphere.netlify.app/",
+                        "https://frontend-memesphere.netlify.app/", "https://www.memesphere.site/",
                         "http://api.memesphere.site", "https://api.memesphere.site");
     }
 }
