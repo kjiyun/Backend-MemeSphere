@@ -15,6 +15,7 @@ jobs:
     secrets:
       DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
       DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+      DOCKER_REPO: ${{ secrets.DOCKER_REPO }}
       HOST_ID: ${{ secrets.HOST_ID }}
       USERNAME: ${{ secrets.USERNAME }}
       PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
